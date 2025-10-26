@@ -1,4 +1,5 @@
 import { BookOpen, GraduationCap, Award, Users } from "lucide-react";
+import tutoringBanner from "@/assets/tutoring-banner.jpg";
 
 const Tutoring = () => {
   const subjects = [

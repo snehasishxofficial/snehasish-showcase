@@ -1,4 +1,5 @@
 import { MessageSquare, ExternalLink } from "lucide-react";
+import queryBanner from "@/assets/query-banner.jpg";
 
 const Query = () => {
   return (

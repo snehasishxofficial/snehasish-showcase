@@ -1,4 +1,5 @@
 import { Download, Mail, Phone, MapPin, Calendar, User, GraduationCap, Award, Briefcase } from "lucide-react";
+import resumeBanner from "@/assets/resume-banner.jpg";
 
 const Resume = () => {
   return (

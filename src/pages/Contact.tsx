@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
+import contactBanner from "@/assets/contact-banner.jpg";
 
 const Contact = () => {
   return (

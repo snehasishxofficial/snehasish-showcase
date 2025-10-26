@@ -1,4 +1,5 @@
 import { Award, Users, Trophy, Star } from "lucide-react";
+import achievementsBanner from "@/assets/achievements-banner.jpg";
 
 const Achievements = () => {
   const achievements = [

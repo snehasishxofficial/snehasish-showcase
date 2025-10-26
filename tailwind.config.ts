@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        heading: ['Space Grotesk', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+        sans: ['Poppins', 'system-ui', '-apple-system', 'sans-serif'],
+        heading: ['Playfair Display', 'serif'],
+        mono: ['Fira Code', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",

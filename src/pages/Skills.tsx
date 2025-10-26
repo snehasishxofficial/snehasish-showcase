@@ -1,4 +1,5 @@
 import { Code, Languages, Shield, Palette, Users } from "lucide-react";
+import skillsBanner from "@/assets/skills-banner.jpg";
 
 const Skills = () => {
   const technicalSkills = [
@@ -33,12 +34,17 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-tech-gradient pt-24 pb-16">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-5xl font-orbitron font-bold text-center mb-4 animate-fade-in">
-          My <span className="text-primary">Skills</span>
-        </h1>
-        <div className="h-1 w-32 bg-gradient-to-r from-primary to-secondary mx-auto mb-12 rounded-full"></div>
+    <div className="min-h-screen bg-gradient-to-br from-background via-card to-background pt-16">
+      <div className="relative h-64 overflow-hidden">
+        <img src={skillsBanner} alt="Skills Banner" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent flex items-center">
+          <div className="container mx-auto px-8">
+            <h1 className="text-5xl md:text-6xl font-heading font-bold text-primary animate-fade-in">My Skills</h1>
+            <p className="text-xl text-muted-foreground mt-2 font-sans">Technical & creative expertise</p>
+          </div>
+        </div>
+      </div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
         <div className="max-w-6xl mx-auto grid gap-8">
           {/* Technical Skills */}
