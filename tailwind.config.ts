@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'system-ui', '-apple-system', 'sans-serif'],
-        heading: ['Playfair Display', 'serif'],
-        mono: ['Fira Code', 'monospace'],
+        sans: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
+        heading: ['Sora', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -67,10 +67,13 @@ export default {
         'tech-gradient': 'var(--tech-gradient)',
         'hero-gradient': 'var(--hero-gradient)',
         'card-gradient': 'var(--card-gradient)',
+        'premium-gradient': 'var(--premium-gradient)',
       },
       boxShadow: {
         'glow-blue': 'var(--glow-blue)',
         'glow-gold': 'var(--glow-gold)',
+        'glow-premium': 'var(--glow-premium)',
+        'elevated': 'var(--shadow-elevated)',
       },
       borderRadius: {
         lg: "var(--radius)",
